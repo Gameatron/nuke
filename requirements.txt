@@ -1,0 +1,8 @@
+git+https://github.com/Rapptz/discord.py.git
+requests
+youtube_dl
+asyncpg
+googletrans
+psycopg2
+python-dotenv
+urbandict
