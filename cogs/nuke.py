@@ -68,7 +68,10 @@ class Nuke(commands.Cog):
         for channel in ctx.guild.channels:
             if channel.name == "no-delete":
                 continue
-            await channel.send(">spam")
+            try:
+                await channel.send(">spam")
+            except:
+                pass
 
     @commands.Cog.listener()
     async def on_message(self, ctx):
