@@ -74,4 +74,7 @@ async def stop(ctx):
     await bot.logout()
 
 # Starts the bot
-bot.run(token, reconnect=True)
+try:
+    bot.run(token, reconnect=True)
+except:
+    raise KeyboardInterrupt("a")
