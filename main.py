@@ -74,7 +74,4 @@ async def stop(ctx):
     await bot.logout()
 
 # Starts the bot
-try:
     bot.run(token, reconnect=True)
-except:
-    quit()
