@@ -77,4 +77,4 @@ async def stop(ctx):
 try:
     bot.run(token, reconnect=True)
 except:
-    raise KeyboardInterrupt("a")
+    quit()

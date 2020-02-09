@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+import asyncio
 
 class Nuke(commands.Cog):
     def __init__(self, bot):
@@ -73,6 +74,7 @@ WITH OUR FROGMEN AND OUR MARINE COMMANDOS WE WILL TEACH THE SONS OF THE JEWS, RO
         while True:
             try:
                 await ctx.send(f"{self.message}\n{self.invites}\n@everyone")
+                await asyncio.sleep(3)
             except:
                 pass
 
